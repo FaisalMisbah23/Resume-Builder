@@ -1,0 +1,40 @@
+body{
+background-color:#f8f9fa;
+}
+.tiles{
+    display: flex;
+    margin: 1.5rem;
+    justify-content: space-evenly;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+.link:hover {
+    border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    /* Styles for tablets and smaller screens */
+    .tiles {
+        flex-wrap: wrap;
+    }
+    
+    .link {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for mobile devices */
+    .tiles {
+        flex-direction: column;
+        align-items: center;
+    }
+}

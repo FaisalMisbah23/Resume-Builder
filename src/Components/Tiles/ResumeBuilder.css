@@ -1,0 +1,49 @@
+.main{
+  margin-right: 12rem;
+  margin-left: 12rem;
+  border: 5px solid  rgb(226, 226, 226);
+background-color: white;
+color: black;
+padding: 2rem;
+}
+.contact{
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.name{
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.light{
+  opacity: 0.1;
+}
+.dark{
+  opacity: 0.8;
+  margin: 0px;
+}
+.item{
+display: flex;
+justify-content:space-between;
+
+}
+li{
+  list-style :disc;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+  .main {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+  .main {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
